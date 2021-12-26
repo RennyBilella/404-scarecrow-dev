@@ -1,0 +1,257 @@
+body {
+    font-size: 24px;
+    margin: 0px;
+    font-weight: 300;
+    width: 100%;
+    height: 100vh;
+}
+
+.context {
+    padding-top: 8%;
+    height: 85vh;
+}
+
+header {
+    height: 10%;
+    font-size: 18px;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+
+img {
+    width: 100%;
+    padding-left: 20%;
+}
+
+
+
+.title {
+    font-family: Space Mono;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    padding-right: 20%;
+    padding-top: 5%;
+
+}
+
+.text {
+    font-family: Space Mono;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    padding-right: 50%;
+    padding-top: 5%;
+
+}
+
+#Homepage {
+    margin-top: 5%;
+    height: 100px;
+    width: 300px;
+    font-size: 24px;
+    font-family: Space Mono;
+    background-color: dodgerblue;
+    color: white;
+}
+
+@media only screen and (max-width: 425px) {
+    header {
+        font-size: 20px;
+    }
+
+    .title {
+        font-family: Space Mono;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: -0.035em;
+        padding-right: 0;
+        text-align: left;
+        padding-top: 5%;
+    }
+
+    .text {
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        text-align: left;
+        padding-top: 5%;
+        padding-right: 0;
+    }
+
+    img {
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Homepage {
+        font-size: 16px;
+        width: 200px;
+        height: 80px;
+        margin-left: 15%;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        font-size: 20px;
+    }
+
+    .title {
+        font-family: Space Mono;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: -0.035em;
+        padding-right: 0;
+        text-align: left;
+        padding-top: 5%;
+    }
+
+    .text {
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        text-align: left;
+        padding-top: 5%;
+        padding-right: 0;
+    }
+
+    img {
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Homepage {
+        font-size: 16px;
+        width: 200px;
+        height: 80px;
+        margin-left: 15%;
+        margin-bottom: 15%;
+    }
+
+    footer {
+        font-size: 10px;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    header {
+        font-size: 18px;
+    }
+
+    .title {
+        font-family: Space Mono;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: -0.035em;
+        padding-right: 0;
+        text-align: left;
+        padding-top: 5%;
+    }
+
+    .text {
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        text-align: left;
+        padding-top: 5%;
+        padding-right: 0;
+    }
+
+    img {
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Homepage {
+        font-size: 16px;
+        width: 200px;
+        height: 80px;
+        margin-left: 15%;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 1040px) {
+    header {
+        font-size: 18px;
+    }
+
+    .title {
+        font-family: Space Mono;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: -0.035em;
+        padding-right: 0;
+        text-align: left;
+        padding-top: 5%;
+    }
+
+    .text {
+        font-family: Space Mono;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        text-align: left;
+        padding-top: 5%;
+        padding-right: 0;
+    }
+
+    img {
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Homepage {
+        font-size: 16px;
+        width: 200px;
+        height: 80px;
+        margin-left: 15%;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
